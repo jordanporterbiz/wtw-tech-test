@@ -23,6 +23,7 @@ describe('fetch cities from API', () => {
             updatedAt:'2023-03-21T15:16:51.842Z'
         }, 
         ); 
+        
 
 
     }, 10000); 
