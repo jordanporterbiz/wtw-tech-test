@@ -12,7 +12,7 @@ const app = new App([
     new TemperatureController(),
 ], 5001);
 
-const uri = "mongodb+srv://JordanPorter:iNtXDpkrYNJrIKcf@wtw-cluster0.zu3mqr6.mongodb.net/?retryWrites=true&w=majority";
+const uri = "PULL FROM .env.local";
 mongoose.connect(uri).then(
     () => { 
         console.log('Connected to MongoDB')
