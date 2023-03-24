@@ -7,7 +7,7 @@ This solution consists of a backend API written in TypeScript and a frontend UI 
 ## Backend
 For the backend, I decided to use Node.js and Express. To enable better interoperability between CommonJS and ES Modules, I chose to use NodeNext.
 
-To make the development process easier, I seeded a NoSQL MongoDB database with CSV files containing the required data. I also provided backend validation using TypeScript interfaces and the Job package. I commandeered the HTTP POST method for the Seeding methods.
+To make the development process easier, I seeded a NoSQL MongoDB database with CSV files containing the required data. I also provided backend validation using TypeScript interfaces and the Joi data validation package. I commandeered the HTTP POST method for the Seeding methods.
 
 To keep sensitive information like database credentials and API keys secure, I used DotEnv to store environment variables needed for Database configuration.
 
